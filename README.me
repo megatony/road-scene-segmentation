@@ -1,0 +1,39 @@
+# Urban Road Scene Segmentation & Object Detection: DeepLabV3+MobileNetV3, DeepLabV3+ResNet101, YOLOv8/v10, Data Preparation & Evaluation Scripts
+
+This repository contains all code, dataset preparation scripts, training pipelines, and evaluation tools used for urban scene understanding in the context of object detection and semantic segmentation.
+The focus is on the application of **YOLOv8/v10** and **DeepLabV3** models with both **MobileNetV3-Large** and **ResNet101** backbones, across multi-city, multi-split experimental settings.
+
+## 📁 Repository Structure
+
+- **Semantic Segmentation:** DeepLabV3+MobileNetV3-Large, DeepLabV3+ResNet101 (PyTorch, Albumentations)
+- **Object Detection:** YOLOv8, YOLOv10 (Ultralytics, multi-GPU)
+- **Dataset Utilities:** Filtering, city-specific splitting, symlink management, statistics
+- **Evaluation:** Per-class, per-city metric extraction, best/worst sample visualization
+- **Failure Analysis:** Post-hoc error classification & visualization
+
+Each script has its own detailed README at the top of the file.
+
+---
+
+## 🔬 Academic Use & Citation
+
+All scripts, configs, and dataset splits are **for academic and non-commercial research only**.
+You are free to use and modify them **provided you give appropriate credit** (see below).
+
+### 📄 Citation Requirement
+
+If you use any part of this codebase or ideas in your own work, **please cite this repository as follows**:
+
+> Bahadir Akin Akgul.  
+> Urban Road Scene Segmentation & Detection: Evaluation & Preparation Scripts (2025).  
+> GitHub Repository: https://github.com/megatony/road-scene-segmentation
+
+You may also cite with BibTeX:
+```bibtex
+@misc{akgul2025roadscene,
+  author = {Bahadir Akin Akgul},
+  title = {Urban Road Scene Segmentation & Detection: Evaluation & Preparation Scripts},
+  year = {2025},
+  howpublished = {\url{https://github.com/YOUR_GITHUB/road-scene-segmentation}},
+  note = {If you use these scripts, citation is required.}
+}
